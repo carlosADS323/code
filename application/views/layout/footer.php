@@ -1,77 +1,126 @@
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Footer</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="../../assets/css/footer.css" rel="stylesheet" type="text/css"/>
-</head>
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
 
-<footer class="container-fluid bg-grey py-5">
-<div class="container">
-   <div class="row">
-      <div class="col-md-6">
-         <div class="row">
-            <div class="col-md-6 ">
-               <div class="logo-part">
-                  <img src="https://i.ibb.co/sHZz13b/logo.png" class="w-50 logo-footer" >
-                  <p>7637 Laurel Dr. King Of Prussia, PA 19406</p>
-                  <p>Use this tool as test data for an automated system or find your next pen</p>
-               </div>
-            </div>
-            <div class="col-md-6 px-4">
-               <h6> About Company</h6>
-               <p>But horizontal lines can only be a full pixel high.</p>
-               <a href="#" class="btn-footer"> More Info </a><br>
-               <a href="#" class="btn-footer"> Contact Us</a>
-            </div>
-         </div>
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Company name
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
       </div>
-      <div class="col-md-6">
-         <div class="row">
-            <div class="col-md-6 px-4">
-               <h6> Help us</h6>
-               <div class="row ">
-                  <div class="col-md-6">
-                     <ul>
-                        <li> <a href="#"> Home</a> </li>
-                        <li> <a href="#"> About</a> </li>
-                        <li> <a href="#"> Service</a> </li>
-                        <li> <a href="#"> Team</a> </li>
-                        <li> <a href="#"> Help</a> </li>
-                        <li> <a href="#"> Contact</a> </li>
-                     </ul>
-                  </div>
-                  <div class="col-md-6 px-4">
-                     <ul>
-                        <li> <a href="#"> Cab Faciliy</a> </li>
-                        <li> <a href="#"> Fax</a> </li>
-                        <li> <a href="#"> Terms</a> </li>
-                        <li> <a href="#"> Policy</a> </li>
-                        <li> <a href="#"> Refunds</a> </li>
-                        <li> <a href="#"> Paypal</a> </li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-6 ">
-               <h6> Newsletter</h6>
-               <div class="social">
-                  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                  <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-               </div>
-               <form class="form-footer my-3">
-                  <input type="text"  placeholder="search here...." name="search">
-                  <input type="button" value="Go" >
-               </form>
-               <p>That's technology limitation of LCD monitors</p>
-            </div>
-         </div>
-      </div>
-   </div>
-</div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
