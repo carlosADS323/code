@@ -12,11 +12,7 @@
 
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
             <div class="container">
-                <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-                    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                        
-                        
-                    </a>
+                <header class="d-flex flex-wrap justify-content-center py-4 mb-12 border-bottom">
 
                     <ul class="nav nav-pills">
                         <li class="nav-item"><img class="img-fluid px-3 px-sm-4 mb-1 " style="width: 12rem;" src="<?php echo base_url('public/img/logo.jpeg'); ?>" alt=""></li>
